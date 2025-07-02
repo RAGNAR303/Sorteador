@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sorteador.css">
+</head>
+
+<body>
+    <img class="dado1" src="./assets/dado1.gif" alt="dado1">
+    <h1>sorteador</h1>
+    <p  class="result"></p>
+    <main>
+        <section>
+            <div class="initial-box">
+                <label for="title"></label>valor inicial:</p>
+                <input class="initial-value" type="number" placeholder="000000">
+            </div>
+            <p>entre:</p>
+            <div class="final-box">
+                <label for="title"></label>valor final:</p>
+                <input class="final-value" type="number" placeholder="000000">
+            </div>
+                <button onclick="generateNumber()" class="raffle">sortear</button>
+        </section>
+        <div class="result-box">
+            <!--<input class="result" type="number" placeholder="resultado">-->
+            <button onclick="resetNumber()" class="reset-result">zerar</button>
+        </div>
+    </main>
+</body>
+<script src="./sorteador.js"></script>
+
+</html>

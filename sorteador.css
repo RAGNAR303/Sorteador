@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Sixtyfour", serif;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: rgb(66, 66, 66);
+}
+
+.dado1 {
+    width: 200px;
+    margin: 50px auto;
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 30px auto;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.result {
+    margin: 30px auto;
+    font-size: 70px;
+    text-align: center;
+    display: block;
+    color: rgb(241, 3, 3);
+    -webkit-text-stroke: 2px white;
+
+
+}
+
+main {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.initial-box,
+.final-box {
+    font-size: 15px;
+    text-align: center;
+}
+
+.final-value,
+.initial-value {
+    height: 75px;
+    width: 225px;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.raffle {
+    height: 80px;
+    width: 350px;
+    margin-top: 15px;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.raffle:hover {
+    opacity: 80%;
+}
+
+.raffle:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.reset-result {
+    height: 80px;
+    width: 350px;
+    margin-top: 15px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    appearance: none;
+}
+
+.reset-result:hover {
+    opacity: 80%;
+}
+
+.reset-result:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
