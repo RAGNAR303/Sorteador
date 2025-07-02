@@ -1,7 +1,7 @@
 Sorteador
 
 
-Sorteador de números , feita para aplicar conceitos de JS
+Projeto de sorteador ,  consegue por o número inicial e o final com prefirir , e da um resuldado entre eles 
 <Br>
 <Br>
 Feita com a seguintes Tecnologias 
